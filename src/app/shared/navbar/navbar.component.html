@@ -1,52 +1,54 @@
-<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+<nav id="navbar-main"
+  class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
-    [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
-<span class="navbar-toggler-icon"></span>
-</button>
+      [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
-     
+
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
 
-            <span style="cursor: pointer;" [routerLink]="['/home']" >Home</span>
+            <span style="cursor: pointer;" [routerLink]="['/home']">Home</span>
           </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-            
-            <span style="cursor: pointer;" [routerLink]="['/education']" >Education</span>
+
+            <span style="cursor: pointer;" [routerLink]="['/education']">Education</span>
           </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-            
+
             <span style="cursor: pointer;" [routerLink]="['/experience']" class="nav-link-inner--text">Experience</span>
           </a>
         </li>
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href = "mailto: lathabda23@gmail.com" target="_blank" data-toggle="tooltip" >
+          <a class="nav-link nav-link-icon" href="mailto: lathabda23@gmail.com" target="_blank" data-toggle="tooltip">
             <i class="fa fa-envelope"></i>
             <span class="nav-link-inner--text d-lg-none">Mail</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://www.linkedin.com/in/latharani-radhakrishnan-5b270520a/" target="_blank" data-toggle="tooltip" >
+          <a class="nav-link nav-link-icon" href="https://www.linkedin.com/in/latharani-radhakrishnan-5b270520a/"
+            target="_blank" data-toggle="tooltip">
             <i class="fa fa-linkedin"></i>
             <span class="nav-link-inner--text d-lg-none">Linkedin</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://twitter.com/lathabda23" target="_blank" data-toggle="tooltip" >
+          <a class="nav-link nav-link-icon" href="https://twitter.com/lathabda23" target="_blank" data-toggle="tooltip">
             <i class="fa fa-twitter-square"></i>
             <span class="nav-link-inner--text d-lg-none">Twitter</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://github.com/lathabda23" target="_blank" data-toggle="tooltip" >
+          <a class="nav-link nav-link-icon" href="https://github.com/lathabda23" target="_blank" data-toggle="tooltip">
             <i class="fa fa-github"></i>
             <span class="nav-link-inner--text d-lg-none">Github</span>
           </a>
@@ -60,9 +62,9 @@
           </a>
         </li>&nbsp;&nbsp;
         <li class="nav-item text-white" style="text-align: right;">
-            <i class="fa fa-mobile mr-2"></i>
-            <span class="btn-inner--icon">
-          +16479782844
+          <i class="fa fa-mobile mr-2"></i>
+          <span class="btn-inner--icon">
+            +16479782844
           </span>
         </li>
       </ul>
